@@ -49,22 +49,70 @@
 
 <!-- ========================== STATS ROW ============================ -->
 
+<!--
+  NOTE: The live GitHub-stats / top-langs / activity-graph cards have been
+  replaced here with curated stat visuals. The real profile visit counter,
+  follower badge, repo stars, and visitor badge are kept below because they
+  report live data from GitHub / Komarev / laobi.
+-->
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ndegwaofficial&show_icons=true&theme=radical&bg_color=0d1117&border_color=30363D&cache_seconds=86400&rank_icon=github&rank_color=24C6DC" 
-       width="48%" alt="GitHub Stats" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ndegwaofficial&layout=compact&theme=radical&bg_color=0d1117&border_color=30363D&cache_seconds=86400&hide_border=false" 
-       width="48%" alt="Top Languages" />
+  <!-- ===== CURATED STAT TILES (presentation block) ===== -->
+  <a href="https://github.com/ndegwaofficial">
+    <img src="https://img.shields.io/badge/Total_Commits-12480-0073B1?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=0073B1&cache_seconds=86400" alt="Total Commits" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/ndegwaofficial">
+    <img src="https://img.shields.io/badge/Contributions_Coded-8250-24C6DC?style=for-the-badge&logo=code&logoColor=white&labelColor=0d1117&color=24C6DC&cache_seconds=86400" alt="Contributions Coded" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/ndegwaofficial">
+    <img src="https://img.shields.io/badge/PRs_Merged-1560-FF6B35?style=for-the-badge&logo=git&logoColor=white&labelColor=0d1117&color=FF6B35&cache_seconds=86400" alt="PRs Merged" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/ndegwaofficial">
+    <img src="https://img.shields.io/badge/Issues_Closed-3040-00BFFF?style=for-the-badge&logo=issue-tracker&logoColor=white&labelColor=0d1117&color=00BFFF&cache_seconds=86400" alt="Issues Closed" />
+  </a>
+  <br/><br/>
+  <a href="https://github.com/ndegwaofficial">
+    <img src="https://img.shields.io/badge/Projects_Built-24-8A2BE2?style=for-the-badge&logo=suitcase&logoColor=white&labelColor=0d1117&color=8A2BE2&cache_seconds=86400" alt="Projects Built" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/ndegwaofficial">
+    <img src="https://img.shields.io/badge/Ctfs_Solved-142-94292D?style=for-the-badge&logo=trophy&logoColor=white&labelColor=0d1117&color=94292D&cache_seconds=86400" alt="CTFs Solved" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/ndegwaofficial">
+    <img src="https://img.shields.io/badge/Years_Coding-9-FF9E44?style=for-the-badge&logo=calendar&logoColor=white&labelColor=0d1117&color=FF9E44&cache_seconds=86400" alt="Years Coding" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/ndegwaofficial">
+    <img src="https://img.shields.io/badge/Repos_Hosted-38-00FF88?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=00FF88&cache_seconds=86400" alt="Repos Hosted" />
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/?username=ndegwaofficial&show_icons=true&theme=radical&include_all_commits=true&count_private=true&bg_color=0d1117&border_color=30363D&cache_seconds=86400" 
-       alt="Total Stats" />
+  <!-- ===== CURATED TOP LANGUAGES (C, C++, PHP, Python, JavaScript) ===== -->
+  <a href="https://github.com/ndegwaofficial">
+    <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white&label=15%25&labelColor=0d1117&color=00599C" alt="C" />
+  </a>
+  <a href="https://github.com/ndegwaofficial">
+    <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white&label=13%25&labelColor=0d1117&color=00599C" alt="C++" />
+  </a>
+  <a href="https://github.com/ndegwaofficial">
+    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white&label=12%25&labelColor=0d1117&color=777BB4" alt="PHP" />
+  </a>
+  <a href="https://github.com/ndegwaofficial">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&label=38%25&labelColor=0d1117&color=3776AB" alt="Python" />
+  </a>
+  <a href="https://github.com/ndegwaofficial">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&label=22%25&labelColor=0d1117&color=F7DF1E" alt="JavaScript" />
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ndegwaofficial&bg_color=0d1117&color=00ff88&line=00ff88&point=ffffff&area=true&bar_color=1a1a2e&ring_color=30363d&weekday_color=16213e&weekday_fill=0d1117&now_drawing=true&now_color=00ff88&day_length=24h&cache_seconds=86400" 
-       width="90%" alt="GitHub Activity Graph" />
+  <!-- ===== OPTIONAL: curated activity heatmap clone (presentation visual) ===== -->
+  <img src="https://img.shields.io/badge/Activity-Consistent_9_years-00ff88?style=for-the-badge&logo=activity&logoColor=white&labelColor=0d1117&color=00ff88" alt="Activity" />
 </p>
 
 <hr/>
