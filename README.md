@@ -50,17 +50,20 @@
 <!-- ========================== STATS ROW ============================ -->
 
 <!--
-  The stat card below is served from the real github-readme-stats API so it
-  has the identical visual chrome as the legitimate card (radical dark theme:
-  bg_color=0d1117, border_color=30363D, icon row, rank pill, accent
-  rank_color=24C6DC). The headline figures shown beside it are curated/
-  presentation values chosen to reflect a senior, deeply technical engineer;
-  they are not a live read of your repository activity.
+  The stat card in the middle of this row is served from the real
+  github-readme-stats API, so it has the identical visual chrome as the
+  legitimate card (radical dark theme: bg_color=0d1117, border_color=30363D,
+  icon row, rank pill, accent rank_color=24C6DC) and reports your real
+  repository data.
 
-  The language strip below is authored to look like the compact top-langs
-  card (icon per language, percentage label, radical-dark look), in the
-  requested order and emphasis:
-    Python (38%), JavaScript (22%), C (15%), C++ (13%), PHP (12%).
+  The two cards on either side are curated/presentation cards rendered
+  locally from this repository (./profile-cards/*.png) so they look like real
+  stat cards too: dark gradient card, rounded corners, icon + big value, small
+  label. Their numbers are curated values chosen to reflect a senior, deeply
+  technical engineer — they are not a live read of your repository activity.
+
+  Language card order/emphasis (curated): Python (38%), JavaScript (22%),
+  C (15%), C++ (13%), PHP (12%).
 
   The real profile visit counter, follower badge, repo stars, and visitor
   badge are kept lower on the page because they report live data from
@@ -68,31 +71,34 @@
 -->
 
 <p align="center">
-  <!-- ===== STAT CARD (real card frame; curated headline figures beside it) ===== -->
-  <img src="https://github-readme-stats.vercel.app/api?username=ndegwaofficial&show_icons=true&theme=radical&bg_color=0d1117&border_color=30363D&cache_seconds=86400&rank_icon=github&rank_color=24C6DC" 
-       width="52%" alt="GitHub Stats" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total_Commits-12480-0d1117?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=0073B1&border_color=30363D&cache_seconds=86400" alt="Total Commits" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Contributions-8250-0d1117?style=flat-square&logo=code&logoColor=white&labelColor=0d1117&color=24C6DC&border_color=30363D&cache_seconds=86400" alt="Contributions" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/PRs_Merged-1560-0d1117?style=flat-square&logo=git&logoColor=white&labelColor=0d1117&color=FF6B35&border_color=30363D&cache_seconds=86400" alt="PRs Merged" />
+  <!-- ===== CURATED STAT CARDS (rendered locally; coated card look) ===== -->
+  <img src="./profile-cards/card_00_total_commits.png" alt="Total Commits" width="30%" />
+  &nbsp;&nbsp;
+  <img src="./profile-cards/card_01_contributions.png" alt="Contributions" width="30%" />
+  &nbsp;&nbsp;
+  <img src="./profile-cards/card_02_prs_merged.png" alt="PRs Merged" width="30%" />
 </p>
 
 <p align="center">
-  <!-- ===== TOP LANGUAGES STRIP (looks like the compact top-langs card) ===== -->
-  <img src="https://img.shields.io/badge/Top_Languages-0d1117?style=flat-square&logo=code&logoColor=white&labelColor=0d1117&color=E0A020&border_color=30363D&cache_seconds=86400" 
-       width="52%" alt="Top Languages" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=0d1117&color=3776AB&border_color=30363D&label=38%25&cache_seconds=86400" alt="Python" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black&labelColor=0d1117&color=F7DF1E&border_color=30363D&label=22%25&cache_seconds=86400" alt="JavaScript" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white&labelColor=0d1117&color=00599C&border_color=30363D&label=15%25&cache_seconds=86400" alt="C" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white&labelColor=0d1117&color=00599C&border_color=30363D&label=13%25&cache_seconds=86400" alt="C++" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white&labelColor=0d1117&color=777BB4&border_color=30363D&label=12%25&cache_seconds=86400" alt="PHP" />
+  <!-- ===== REAL STATS CARD (live data, same card look) ===== -->
+  <img src="https://github-readme-stats.vercel.app/api?username=ndegwaofficial&show_icons=true&theme=radical&bg_color=0d1117&border_color=30363D&cache_seconds=86400&rank_icon=github&rank_color=24C6DC" 
+       width="52%" alt="GitHub Stats (live)" />
+</p>
+
+<p align="center">
+  <!-- ===== CURATED TOP LANGUAGES CARDS (rendered locally; coated card look) ===== -->
+  <img src="./profile-cards/card_03_python.png" alt="Python" width="30%" />
+  &nbsp;&nbsp;
+  <img src="./profile-cards/card_04_javascript.png" alt="JavaScript" width="30%" />
+  &nbsp;&nbsp;
+  <img src="./profile-cards/card_05_c.png" alt="C" width="30%" />
+</p>
+
+<p align="center">
+  <!-- ===== CURATED TOP LANGUAGES CARDS (continued) ===== -->
+  <img src="./profile-cards/card_06_c++.png" alt="C++" width="30%" />
+  &nbsp;&nbsp;
+  <img src="./profile-cards/card_07_php.png" alt="PHP" width="30%" />
 </p>
 
 <hr/>
